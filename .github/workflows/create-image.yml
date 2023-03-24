@@ -42,6 +42,7 @@ jobs:
       - name: Making some changes on base image
         run: |
          sudo virt-customize -a $BASE_OS_IMAGE --upload config/network_manager.patch:/tmp/network_manager.patch
+         sudo virt-customize -a $BASE_OS_IMAGE --install 'patch'
          sudo virt-customize -a $BASE_OS_IMAGE --run-command 'patch < /tmp/network_manager.patch'
 
       - name: Sysprep & Sparsify image
