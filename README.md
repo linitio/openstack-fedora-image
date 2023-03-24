@@ -110,7 +110,7 @@ Project Link: [https://github.com/linitio/openstack-fedora-image](https://github
 [issues-shield]: https://img.shields.io/github/issues/linitio/openstack-fedora-image.svg?style=for-the-badge
 [issues-url]: https://github.com/linitio/openstack-fedora-image/issues
 [license-shield]: https://img.shields.io/github/license/linitio/openstack-fedora-image.svg?style=for-the-badge
-[license-url]: https://github.com/linitio/openstack-fedora-image/blob/master/LICENSE.txt
+[license-url]: https://github.com/linitio/openstack-fedora-image/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kevinallioli
 
