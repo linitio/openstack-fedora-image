@@ -1,0 +1,12 @@
+--- /usr/lib/python3.11/site-packages/cloudinit/net/network_manager.py.orig    2023-03-15 14:24:30.683252954 +0000
++++ /usr/lib/python3.11/site-packages/cloudinit/net/network_manager.py    2023-03-15 14:24:34.898281247 +0000
+@@ -97,7 +97,8 @@
+         self.config[family]["method"] = method
+         self._set_default(family, "may-fail", "false")
+         if family == "ipv6":
+-            self._set_default(family, "addr-gen-mode", "stable-privacy")
++            self._set_default(family, "may-fail", "true")
++            self._set_default(family, "addr-gen-mode", "eui64")
+
+     def _add_numbered(self, section, key_prefix, value):
+         """
