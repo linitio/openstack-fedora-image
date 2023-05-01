@@ -4,8 +4,8 @@ name: Build_Image
 
 env:
   VERSION: ${{ github.ref_name }}
-  RELEASE: 37
-  UPDATE: 1.7
+  RELEASE: 38
+  UPDATE: 1.6
   BASE_OS_IMAGE: base-os.qcow2
 
 # Controls when the workflow will run
